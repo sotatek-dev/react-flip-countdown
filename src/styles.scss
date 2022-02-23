@@ -15,6 +15,12 @@ $borderRadius: 0.15em;
     *:after {
         box-sizing: border-box;
     }
+
+    .colon-custom {
+        color: #000;
+        font-weight: bold;
+    }
+
     .flip-countdown-piece {
         display: inline-block;
         margin: 0 0.22em;
