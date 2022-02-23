@@ -313,38 +313,38 @@ const FlipCountdown = (props) => {
     return (
         <div className={`flip-countdown theme-${theme} size-${size}`}>
             {!hideYear && (
-                <>
+                <React.Fragment>
                     {getPiece('year')}
                     <span className='colon-custom'>:</span>
-                </>
+                </React.Fragment>
             )}
 
             {!hideMonth && (
-                <>
+                <React.Fragment>
                     {getPiece('month')}
                     <span className='colon-custom'>:</span>
-                </>
+                </React.Fragment>
             )}
 
             {!hideDay && (
-                <>
+                <React.Fragment>
                     {getPiece('day')}
                     <span className='colon-custom'>:</span>
-                </>
+                </React.Fragment>
             )}
 
             {!hideHour && (
-                <>
+                <React.Fragment>
                     {getPiece('hour')}
                     <span className='colon-custom'>:</span>
-                </>
+                </React.Fragment>
             )}
 
             {!hideMinute && (
-                <>
+                <React.Fragment>
                     {getPiece('minute')}
                     <span className='colon-custom'>:</span>
-                </>
+                </React.Fragment>
             )}
 
             {!hideSecond && getPiece('second')}
